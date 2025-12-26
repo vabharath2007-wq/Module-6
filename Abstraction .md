@@ -18,10 +18,13 @@ Define the abstract base class named Polygon and also define the abstract method
     having method sides and print("pentagon has 5 sides")
 
 7. **Create Subclass 'hexagon'**:
-    having method sides and print("hexagon has 6 sides") 
+    having method sides and print("hexagon has 6 sides")
 
-9. **Create Objects & Call Methods**:
-   - Instantiate `triangle` and `pentagon` and 'hexagon'.
+8. **Create Subclass 'square'**:
+    having method sides and print("square has 4 sides")
+
+10. **Create Objects & Call Methods**:
+   - Instantiate `triangle` and `pentagon` and 'hexagon' and 'square'.
    - Call their `sides()` methods.
 
 ## 💻 Program
@@ -51,8 +54,8 @@ class Hexagon(Polygon):
 
 class square(Polygon):   
   
-   def sides(self):   
-      print("I have 4 sides")   
+    def sides(self):   
+        print("I have 4 sides")   
   
 t = Triangle()   
 
