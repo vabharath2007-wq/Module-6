@@ -29,10 +29,10 @@ Define the abstract base class named Polygon and also define the abstract method
 from abc import ABC,abstractmethod 
   
 class Polygon(ABC):   
-  
-   @abstractmethod  
-   def sides(self):   
-      pass  
+   
+    @abstractmethod  
+    def sides(self):   
+        pass  
   
 class Triangle(Polygon):   
     
